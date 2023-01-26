@@ -5,6 +5,9 @@ Habit tracker is an application that has features like adding a new habit and tr
 
 This project live through firebase.google.com [Live link](https://habit-tracker-ef3c4.web.app/).
 
+Project dependencies are react, redux, react-router-dom. 
+Browser like chrome, edge can run this project using the hosted link as provided.
+
 ## Habits page:
 
 ![Habits page](https://i.ibb.co/Wyq0BSm/habit.png)
