@@ -7,12 +7,12 @@ This project live through firebase.google.com [Live link](https://habit-tracker-
 
 Habits page:
 
-<img src="https://i.ibb.co/Wyq0BSm/habit.png" height="600" width="600" >
+![Habits page](https://i.ibb.co/Wyq0BSm/habit.png)
 
 
 Weekly trakcer view:
 
-<img src="https://i.ibb.co/0CNbmSC/habit.png" height="600" width="600" >
+![Habits page](https://i.ibb.co/0CNbmSC/habit.png)
 
 
 
