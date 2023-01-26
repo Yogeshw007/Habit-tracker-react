@@ -5,12 +5,12 @@ Habit tracker is an application that has features like adding a new habit and tr
 
 This project live through firebase.google.com [Live link](https://habit-tracker-ef3c4.web.app/).
 
-Habits page:
+## Habits page:
 
 ![Habits page](https://i.ibb.co/Wyq0BSm/habit.png)
 
 
-Weekly trakcer view:
+## Weekly trakcer view:
 
 ![Habits page](https://i.ibb.co/0CNbmSC/habit.png)
 
