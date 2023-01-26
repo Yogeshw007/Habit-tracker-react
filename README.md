@@ -10,7 +10,7 @@ This project live through firebase.google.com [Live link](https://habit-tracker-
 ![Habits page](https://i.ibb.co/Wyq0BSm/habit.png)
 
 
-## Weekly trakcer view:
+## Weekly tracker view:
 
 ![Habits page](https://i.ibb.co/0CNbmSC/habit.png)
 
