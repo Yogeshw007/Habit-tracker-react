@@ -6,11 +6,13 @@ Habit tracker is an application that has features like adding a new habit and tr
 This project live through firebase.google.com [Live link](https://habit-tracker-ef3c4.web.app/).
 
 Habits page:
-<img src="https://i.ibb.co/Wyq0BSm/habit.png" height="60" width="60" >
+
+<img src="https://i.ibb.co/Wyq0BSm/habit.png" height="600" width="600" >
 
 
 Weekly trakcer view:
-<img src="https://i.ibb.co/0CNbmSC/habit.png" height="60" width="60" >
+
+<img src="https://i.ibb.co/0CNbmSC/habit.png" height="600" width="600" >
 
 
 
