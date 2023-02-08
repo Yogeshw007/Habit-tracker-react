@@ -22,20 +22,11 @@ function Habit(props) {
     const { habit, dispatch, dates, month, year, editableDateRange } = props;
     const currentDate = new Date().getDate();
 
-    const [statuses, setStatuses] = useState(new Array(7).fill(statusImages["NONE"]));
-
     function handleUpdateStatus(title, status, date) {
         let dateObj = new Date();
         dateObj.setDate(date);
 
         dispatch(updateStatus(title, status, dateObj));
-    }
-
-    function handleUpdateStatusImage(index, status) {
-        let updatedStatuses = [...statuses];
-        updatedStatuses[index] = statusImages[status];
-
-        setStatuses(updatedStatuses);
     }
 
     return <Container style={styles.habit}>
@@ -79,7 +70,6 @@ function Habit(props) {
                                 index={index}
                                 handleUpdateStatus={handleUpdateStatus}
                                 editableDateRange={editableDateRange}
-                                handleUpdateStatusImage={handleUpdateStatusImage}
                             />
                         </Col>
                     } else {

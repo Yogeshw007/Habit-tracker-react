@@ -62,12 +62,17 @@ export default function habitReducer(state = initialState, action) {
             const year = updateDate.getFullYear();
             const date = updateDate.getDate();
 
-            state.habits.map((habit) => {
+            const newHabits = state.habits.map((habit) => {
                 if (action.title === habit.title) {
                     habit.statuses[`day${date}${months[month]}${year}`] = action.status;
                 }
                 return habit;
             })
+
+            return {
+                ...state,
+                habits: newHabits
+            }
 
         default:
             return state;
